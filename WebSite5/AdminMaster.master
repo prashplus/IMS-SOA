@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeFile="AdminMaster.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<link href="CSS/SideNav.css" rel="stylesheet" />
+<link href="CSS/MainMaster.css" rel="stylesheet" />
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+                </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="topnav" id="myTopnav">
+             <a class="logout" href="Home.aspx">Log Out</a>
+            </div>
+      <div id="mySidenav" class="sidenav">
+          <a href="Stock.aspx">Stock</a>      
+          <a href="AdminInventory.aspx">Inventory</a> 
+                <a href="AdminEmployee.aspx">Employee</a> 
+                
+            </div>
+         
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+          <div style="margin-left:200px">  
+
+               </div>
+        </asp:ContentPlaceHolder>
+       
+             </form>
+</body>
+</html>

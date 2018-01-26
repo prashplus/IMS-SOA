@@ -1,0 +1,71 @@
+﻿body {
+    background-color: moccasin;
+}
+.maindiv {
+    position: absolute;
+    top: 35%;
+    bottom: auto;
+    width: 100%;
+    height: auto;
+}
+
+.adminlogindiv {
+    width: 35%;
+    float: left;
+    height: 30%;
+    margin-left: 100px;
+}
+
+.emplogindiv {
+    width: 35%;
+    float: right;
+    height: 30%;
+    margin-right: 200px;
+}
+.label3 {
+    display: inline-block;
+    padding: 12px 16px;
+    font-family: Calibri;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left:75px;
+    width:98px;
+}
+
+.textbox2 {
+    padding: 8px 8px;
+    font-family: Calibri;
+    font-size: 16px;
+    text-align: left;
+    width:200px;
+   
+}
+.label1 {
+    display: inline-block;
+    padding: 12px 16px;
+    font-family: Calibri;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 190px;
+}
+.button2 {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family:Calibri;
+    font-weight:700;
+    position: relative;
+    left:45%;
+    width:100px;
+}
+    .button:hover {
+        background-color: #4b6d1f; /* Green */
+        color: white;
+    }
+    .textbox2:active {
+        border-color:blue;
+    }

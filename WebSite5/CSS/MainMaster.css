@@ -1,0 +1,67 @@
+﻿body {
+background-color: moccasin;
+}
+
+.topnav {
+    background-color: #111;
+    overflow: hidden;
+    font-family: Calibri;
+    height: 45px;
+}
+   
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        
+    }
+    .topnav .login{
+        float:right;
+    }
+    
+        .topnav a:hover {
+            background-color: seagreen;
+            color: white;
+        }
+
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: green;
+        }
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    float: right;
+    height:45px;
+}
+
+    .button:hover {
+        background-color: white;
+        color: black;
+    }
+.label{
+    border: none;
+    background-color:transparent;
+    padding: 14px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    height: 80px;
+    width:100%;
+    font-family:Calibri;
+    margin-top:200px;
+}

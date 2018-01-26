@@ -1,0 +1,70 @@
+﻿body {
+    background-color: moccasin;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding:4px 4px;
+    font-family:Calibri;
+    font-size:16px;
+}
+
+.dropdown:hover {
+    display: block;
+}
+.label3{
+    position:relative;
+    display: inline-block;
+    padding: 12px 16px;
+    font-family: Calibri;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.label2 {
+    display: inline-block;
+    padding: 12px 16px;
+    font-family: Calibri;
+    font-weight: 700;
+    font-size: 20px;
+    float:right;
+}
+.label1 {
+    display: inline-block;
+    font-size:18px;
+    font-family: Calibri;
+    font-weight: 700;
+    text-align:center;
+    padding:4px 4px;
+    margin-bottom:8px;
+}
+
+
+.taxtbox3 {
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: left;
+    padding: 4px 4px;
+    border: none;
+    font-size:20px;
+    font-weight:700;
+    
+}
+.textbox1 {
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: center;
+    padding:4px 4px; 
+    margin-bottom:4px;
+}
+.textbox2 {
+    padding: 12px 16px;
+    font-family: Calibri;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: left;
+    float: right;
+}
+.topnav .logout{
+    float:right;
+}
