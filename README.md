@@ -7,7 +7,7 @@ Just one of the Projects regarding Service Oriented Architecture.
 
 * **Prashant Piprotar** - - [Prash+](https://github.com/prashplus)
 * **Divyesh Rajpura**
-* **Vicky Patel**
+* **Vicky Patel** - - [Vicky](https://github.com/vicky911)
 
 
 Visit my blog for more Tech Stuff
